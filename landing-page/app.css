@@ -197,14 +197,14 @@ button i {
 @media (min-width: 768px) {
   .hero .container {
     height: 787px;
-    background: url(../images/hero.png) no-repeat;
+    background: url(./images/hero.png) no-repeat;
     background-position: center right;
   }
 }
 @media (min-width: 768px) and (max-width: 1200px) {
   .hero .container {
     height: 527px;
-    background: url(../images/hero.png) no-repeat;
+    background: url(./images/hero.png) no-repeat;
     background-position: center right;
     background-size: 50%;
   }
