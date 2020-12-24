@@ -73,6 +73,27 @@ button i {
   color: #4300DD;
 }
 
+div#canvas {
+  max-width: none;
+  padding: 0;
+}
+div#canvas header#header {
+  display: none;
+}
+div#canvas .page-divider.top-divider {
+  display: none;
+}
+div#canvas section#page {
+  margin: 0;
+  overflow: hidden;
+}
+div#canvas .code-block {
+  padding-bottom: 0 !important;
+}
+div#canvas footer#footer {
+  display: none;
+}
+
 .header {
   padding: 28px 0;
 }
@@ -168,7 +189,6 @@ button i {
 }
 .exclusive .expiry i {
   font-style: normal;
-  margin-right: 5px;
 }
 .exclusive .expiry span {
   display: inline-block;
