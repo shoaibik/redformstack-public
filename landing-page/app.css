@@ -196,7 +196,7 @@ button i {
 }
 @media (min-width: 768px) {
   .hero .container {
-    height: 787px;
+    height: 700px;
     background: url(./images/hero.png) no-repeat;
     background-position: center right;
   }
