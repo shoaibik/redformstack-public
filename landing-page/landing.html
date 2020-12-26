@@ -1,8 +1,7 @@
 <html>
-
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="css/app.min.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.js"
         integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,10 +13,12 @@
         <div class="header">
             <div class="container">
                 <div class="logo">
-                    <a href="#"><img src="https://redwireless.s3.ca-central-1.amazonaws.com/landing-page/images/logo.png" /></a>
+                    <a href="#"><img
+                            src="https://redwireless.s3.ca-central-1.amazonaws.com/landing-page/images/logo.png" /></a>
                 </div>
                 <div class="dealer">
-                    <img src="https://redwireless.s3.ca-central-1.amazonaws.com/landing-page/images/rogers-logo.png" alt="">
+                    <img src="https://redwireless.s3.ca-central-1.amazonaws.com/landing-page/images/rogers-logo.png"
+                        alt="">
                 </div>
                 <a class="phone" href="tel:1-888-819-1007">
                     <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -78,7 +79,8 @@
                 <div class="boxes">
                     <div>
                         <div class="image">
-                            <img src="./https://redwireless.s3.ca-central-1.amazonaws.com/landing-page/images/samsung-s20.png" alt="s20" />
+                            <img src="https://redwireless.s3.ca-central-1.amazonaws.com/landing-page/images/samsung-s20.png"
+                                alt="s20" />
                         </div>
                         <div class="details">
                             <h4>Get the Samsung S20 FE 5G</h4>
@@ -94,7 +96,8 @@
 
                     <div>
                         <div class="image">
-                            <img src="./https://redwireless.s3.ca-central-1.amazonaws.com/landing-page/images/iphone11.png" alt="iphone" />
+                            <img src="https://redwireless.s3.ca-central-1.amazonaws.com/landing-page/images/iphone11.png"
+                                alt="iphone" />
                         </div>
                         <div class="details">
                             <h4>iPhone 11 (64 GB)</h4>
@@ -454,27 +457,30 @@
                 <h2>Our Cases</h2>
                 <div>
                     <div class="list">
-                        <div class="active">
+                        <div class="active" data-case="case1">
                             <span class="thumb">
-                                <img src="./https://redwireless.s3.ca-central-1.amazonaws.com/landing-page/images/avatar.png" alt="">
+                                <img src="https://redwireless.s3.ca-central-1.amazonaws.com/landing-page/images/avatar.png"
+                                    alt="">
                             </span>
                             <div>
                                 <h5>Brian Chung</h5>
                                 <p>Avid Biker, Toronto Resident</p>
                             </div>
                         </div>
-                        <div>
+                        <div data-case="case2">
                             <span class="thumb">
-                                <img src="./https://redwireless.s3.ca-central-1.amazonaws.com/landing-page/images/avatar.png" alt="">
+                                <img src="https://redwireless.s3.ca-central-1.amazonaws.com/landing-page/images/avatar.png"
+                                    alt="">
                             </span>
                             <div>
                                 <h5>Brian Chung</h5>
                                 <p>Avid Biker, Toronto Resident</p>
                             </div>
                         </div>
-                        <div>
+                        <div data-case="case3">
                             <span class="thumb">
-                                <img src="./https://redwireless.s3.ca-central-1.amazonaws.com/landing-page/images/avatar.png" alt="">
+                                <img src="https://redwireless.s3.ca-central-1.amazonaws.com/landing-page/images/avatar.png"
+                                    alt="">
                             </span>
                             <div>
                                 <h5>Brian Chung</h5>
@@ -483,26 +489,77 @@
                         </div>
                     </div>
                     <div class="detail">
-                        <p>Brian loves to bike. <strong>His passion for biking and exploring</strong> the outdoors grew
-                            during the lockdown
-                            and
-                            <strong>he often found low/poor internet</strong> connectivity to be problematic. </p>
-                        <ul>
-                            <li>
-                                <strong>Problem:</strong> Poor network connectivity outside urban centres.
-                            </li>
-                            <li>
-                                <strong>​Roadblock:</strong> He wanted more data and a better coverage.
-                            </li>
-                            <li>
-                                <strong>Solution:</strong> He received 2x more data on the most reliable 5G network.
-                            </li>
-                        </ul>
-                        <div class="result">
-                            <h5>Result:</h5>
-                            <p>20GB plan with Infinite data on Rogers 5G network for only $50/month. </p>
+                        <div id="case1" class="active">
+                            <p>Brian loves to bike. <strong>His passion for biking and exploring</strong> the outdoors
+                                grew
+                                during the lockdown
+                                and
+                                <strong>he often found low/poor internet</strong> connectivity to be problematic. </p>
+                            <ul>
+                                <li>
+                                    <strong>Problem:</strong> Poor network connectivity outside urban centres.
+                                </li>
+                                <li>
+                                    <strong>​Roadblock:</strong> He wanted more data and a better coverage.
+                                </li>
+                                <li>
+                                    <strong>Solution:</strong> He received 2x more data on the most reliable 5G network.
+                                </li>
+                            </ul>
+                            <div class="result">
+                                <h5>Result:</h5>
+                                <p>20GB plan with Infinite data on Rogers 5G network for only $50/month. </p>
 
+                            </div>
                         </div>
+                        <div id="case2">
+                            <p>John loves to bike. <strong>His passion for biking and exploring</strong> the outdoors
+                                grew
+                                during the lockdown
+                                and
+                                <strong>he often found low/poor internet</strong> connectivity to be problematic. </p>
+                            <ul>
+                                <li>
+                                    <strong>Problem:</strong> Poor network connectivity outside urban centres.
+                                </li>
+                                <li>
+                                    <strong>​Roadblock:</strong> He wanted more data and a better coverage.
+                                </li>
+                                <li>
+                                    <strong>Solution:</strong> He received 2x more data on the most reliable 5G network.
+                                </li>
+                            </ul>
+                            <div class="result">
+                                <h5>Result:</h5>
+                                <p>20GB plan with Infinite data on Rogers 5G network for only $50/month. </p>
+
+                            </div>
+                        </div>
+                        <div id="case3">
+                            <p>Doe loves to bike. <strong>His passion for biking and exploring</strong> the outdoors
+                                grew
+                                during the lockdown
+                                and
+                                <strong>he often found low/poor internet</strong> connectivity to be problematic. </p>
+                            <ul>
+                                <li>
+                                    <strong>Problem:</strong> Poor network connectivity outside urban centres.
+                                </li>
+                                <li>
+                                    <strong>​Roadblock:</strong> He wanted more data and a better coverage.
+                                </li>
+                                <li>
+                                    <strong>Solution:</strong> He received 2x more data on the most reliable 5G network.
+                                </li>
+                            </ul>
+                            <div class="result">
+                                <h5>Result:</h5>
+                                <p>20GB plan with Infinite data on Rogers 5G network for only $50/month. </p>
+
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
 
@@ -613,10 +670,12 @@
         <div class="footer">
             <div class="container">
                 <div class="logo">
-                    <a href="#"><img src="https://redwireless.s3.ca-central-1.amazonaws.com/landing-page/images/footer-logo.png" /></a>
+                    <a href="#"><img
+                            src="https://redwireless.s3.ca-central-1.amazonaws.com/landing-page/images/footer-logo.png" /></a>
                 </div>
                 <div class="dealer">
-                    <img src="https://redwireless.s3.ca-central-1.amazonaws.com/landing-page/images/footer-roger-logo.png" alt="">
+                    <img src="https://redwireless.s3.ca-central-1.amazonaws.com/landing-page/images/footer-roger-logo.png"
+                        alt="">
                 </div>
 
                 <div class="social">
@@ -677,6 +736,19 @@
                 $(".modal").modal();
             });
 
+
+            $('[data-case]').click(function(){
+                var kase = $(this).data("case");
+                $(".cases .list > div").removeClass("active");
+                $(this).addClass('active');
+                $(".cases .detail > div").removeClass("active");
+                var detail = $(".cases .detail").find("#"+kase).addClass("active");
+
+                if(window.innerWidth <= 768){               
+                    const y = detail[0].getBoundingClientRect().top + window.pageYOffset - 30;
+                    window.scrollTo({top: y, behavior: 'smooth'});
+                }
+            }); 
 
 
             var endTime = new Date(Date.parse(new Date()) + 24 * 60 * 60 * 1000);
